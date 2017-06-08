@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2B76C61EDD9B56004E1E6C /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2B76C51EDD9B56004E1E6C /* LocalAuthentication.framework */; };
+		3F9262E01ED4E89C007CD8E9 /* intouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9262DF1ED4E89C007CD8E9 /* intouch.png */; };
+		3FA5F9F91EE06B940090B8D7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA5F9F81EE06B940090B8D7 /* MessageUI.framework */; };
+		3FDBA7641EE63C44000EE4E1 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBA7631EE63C44000EE4E1 /* Day.swift */; };
+		3FDBA7661EE63C56000EE4E1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBA7651EE63C56000EE4E1 /* User.swift */; };
 		3FEC1DD81EBB72010001143B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC1DD71EBB72010001143B /* AppDelegate.swift */; };
 		3FEC1DDA1EBB72010001143B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC1DD91EBB72010001143B /* ViewController.swift */; };
 		3FEC1DDD1EBB72010001143B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC1DDB1EBB72010001143B /* Main.storyboard */; };
 		3FEC1DDF1EBB72010001143B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC1DDE1EBB72010001143B /* Assets.xcassets */; };
 		3FEC1DE21EBB72010001143B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC1DE01EBB72010001143B /* LaunchScreen.storyboard */; };
+		3FEC1DEC1EBB76BA0001143B /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC1DEB1EBB76BA0001143B /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2B76C51EDD9B56004E1E6C /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		3F9262DF1ED4E89C007CD8E9 /* intouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intouch.png; path = ../../../../Desktop/intouch.png; sourceTree = "<group>"; };
+		3FA5F9F81EE06B940090B8D7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3FDBA7631EE63C44000EE4E1 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		3FDBA7651EE63C56000EE4E1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3FEC1DD41EBB72010001143B /* InTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEC1DD71EBB72010001143B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FEC1DD91EBB72010001143B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,7 @@
 		3FEC1DDE1EBB72010001143B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FEC1DE11EBB72010001143B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FEC1DE31EBB72010001143B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEC1DEB1EBB76BA0001143B /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA5F9F91EE06B940090B8D7 /* MessageUI.framework in Frameworks */,
+				3F2B76C61EDD9B56004E1E6C /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2B76C41EDD9B56004E1E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA5F9F81EE06B940090B8D7 /* MessageUI.framework */,
+				3F2B76C51EDD9B56004E1E6C /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3FEC1DCB1EBB72010001143B = {
 			isa = PBXGroup;
 			children = (
 				3FEC1DD61EBB72010001143B /* InTouch */,
 				3FEC1DD51EBB72010001143B /* Products */,
+				3F2B76C41EDD9B56004E1E6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +79,15 @@
 			isa = PBXGroup;
 			children = (
 				3FEC1DD71EBB72010001143B /* AppDelegate.swift */,
+				3FDBA7631EE63C44000EE4E1 /* Day.swift */,
+				3FDBA7651EE63C56000EE4E1 /* User.swift */,
 				3FEC1DD91EBB72010001143B /* ViewController.swift */,
+				3FEC1DEB1EBB76BA0001143B /* SettingsController.swift */,
 				3FEC1DDB1EBB72010001143B /* Main.storyboard */,
 				3FEC1DDE1EBB72010001143B /* Assets.xcassets */,
 				3FEC1DE01EBB72010001143B /* LaunchScreen.storyboard */,
 				3FEC1DE31EBB72010001143B /* Info.plist */,
+				3F9262DF1ED4E89C007CD8E9 /* intouch.png */,
 			);
 			path = InTouch;
 			sourceTree = "<group>";
@@ -96,6 +124,7 @@
 				TargetAttributes = {
 					3FEC1DD31EBB72010001143B = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3LJY7XDPRA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9262E01ED4E89C007CD8E9 /* intouch.png in Resources */,
 				3FEC1DE21EBB72010001143B /* LaunchScreen.storyboard in Resources */,
 				3FEC1DDF1EBB72010001143B /* Assets.xcassets in Resources */,
 				3FEC1DDD1EBB72010001143B /* Main.storyboard in Resources */,
@@ -136,7 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEC1DEC1EBB76BA0001143B /* SettingsController.swift in Sources */,
 				3FEC1DDA1EBB72010001143B /* ViewController.swift in Sources */,
+				3FDBA7641EE63C44000EE4E1 /* Day.swift in Sources */,
+				3FDBA7661EE63C56000EE4E1 /* User.swift in Sources */,
 				3FEC1DD81EBB72010001143B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +293,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LJY7XDPRA;
 				INFOPLIST_FILE = InTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Aalap-Patel.InTouch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +307,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LJY7XDPRA;
 				INFOPLIST_FILE = InTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Aalap-Patel.InTouch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +336,7 @@
 				3FEC1DE81EBB72010001143B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
