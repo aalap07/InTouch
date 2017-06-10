@@ -37,6 +37,5 @@ class User: NSObject, NSCoding {
         aCoder.encode(color, forKey: "color")
     }
     
-    // Adds xp to the user and levels the user up if applicable
    
 }
