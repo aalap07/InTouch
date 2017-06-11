@@ -16,7 +16,10 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate ,
     @IBOutlet weak var default1: UIButton! //Sets the default for the first number
     @IBOutlet weak var default2: UIButton! //Sets the default for the second number
     @IBOutlet weak var default3: UIButton! //Sets the default for the third number
+    
+    
     @IBOutlet weak var topLabel: UILabel!
+    
     let defaults = UserDefaults.standard  //Defaults set used for NSCoding
     let toolbar = UIToolbar()
 
@@ -101,6 +104,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate ,
     @IBAction func default1Clicked(_ sender: UIButton) {
         
         //Disables the default button and encodes the number to be used as the first number
+        
         default1.isEnabled = false
         default2.isEnabled = true
         default3.isEnabled = true
@@ -111,6 +115,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate ,
     }
     
     @IBAction func default2Clicked(_ sender: UIButton) {
+        
         //Disables the default button and encodes the number to be used as the second number
 
         default2.isEnabled = false
@@ -123,6 +128,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate ,
     }
 
     @IBAction func default3Clicked(_ sender: UIButton) {
+        
         //Disables the default button and encodes the number to be used as the third number
 
         default3.isEnabled = false
@@ -147,7 +153,9 @@ func makeLabel(label: UILabel, text: String, rect: CGRect, font: UIFont) {
 
     
 func makeButton(fileName: String, frame: CGRect, selector: Selector) {
+    
     //Used to programmatically add a button with an image
+    
     let image = UIImage(named: fileName)?.withRenderingMode(.alwaysTemplate)
     let button = UIButton(type: UIButtonType.custom)
     button.frame = frame
@@ -158,8 +166,10 @@ func makeButton(fileName: String, frame: CGRect, selector: Selector) {
 }
 
 func settingsPressed(_ sender: UIButton!) {
+    
     //Function that is called when the settings button has been pressed by the user, using action of touch up inside
  performSegue(withIdentifier: "toSettings", sender: self) //Navigates the user to the settings page using the segue identifier declared in Main.storyboard
+    
     
 }
     
@@ -266,6 +276,7 @@ func messageComposeViewController(_ controller: MFMessageComposeViewController,
     
     @IBAction func saveSecondPressed(_ sender: UIButton) {
         //Saves the second number and encodes the data, while alerting the user that the message has been saved
+        
         let defaults = UserDefaults.standard
         defaults.setValue(secondPhone.text, forKey: "secondNumber")
         let alertController = UIAlertController(title: "Save Number", message: "Your number has been saved.", preferredStyle: .alert)

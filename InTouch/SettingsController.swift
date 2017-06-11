@@ -13,11 +13,17 @@ class SettingsController: UIViewController, UIScrollViewDelegate, UITextViewDele
   
     let width = Int(UIScreen.main.bounds.width)
     let height = Int(UIScreen.main.bounds.height)
+    
+    
     let settingHeight = 49
     let breakHeight = 30
+    
+    
     let defaults = UserDefaults.standard
     let appBlue = UIColor(hexString: "2C6ED9")
     let messageText = UITextView()
+    
+    
     let toolbar = UIToolbar()
     let messageLabel = UILabel()
     let settingsLabel = UILabel()
@@ -366,7 +372,9 @@ class SettingsController: UIViewController, UIScrollViewDelegate, UITextViewDele
     
     // Turns the background of the button to gray briefly when tapped
     func touchDown(_ sender: UIButton) {
+        
         UIView.animate(withDuration: 0.2, delay: 0, options: [], animations: {
+            
             sender.backgroundColor = UIColor.lightGray },
                        completion: {
                         (value: Bool) in
