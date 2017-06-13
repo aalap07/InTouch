@@ -181,6 +181,10 @@ func messageComposeViewController(_ controller: MFMessageComposeViewController,
         
         // Dismiss the message compose view controller.
         controller.dismiss(animated: true, completion: nil) //If the message is composed and complete, the controller will terminate itself
+    
+
+    
+    
     }
     func authenticateUser(){ //Function used for Touch ID authentication
         

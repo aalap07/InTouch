@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0FA9C21EE8E87B00DF4E61 /* final.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FA9C11EE8E87B00DF4E61 /* final.png */; };
+		3F2B36421EEEE14800D60F80 /* final.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B36411EEEE14800D60F80 /* final.png */; };
 		3F2B76C61EDD9B56004E1E6C /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2B76C51EDD9B56004E1E6C /* LocalAuthentication.framework */; };
 		3F9262E01ED4E89C007CD8E9 /* intouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9262DF1ED4E89C007CD8E9 /* intouch.png */; };
 		3FA5F9F91EE06B940090B8D7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA5F9F81EE06B940090B8D7 /* MessageUI.framework */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F0FA9C11EE8E87B00DF4E61 /* final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = final.png; path = ../../../../Desktop/final.png; sourceTree = "<group>"; };
+		3F2B36411EEEE14800D60F80 /* final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = final.png; path = ../../../../Desktop/final.png; sourceTree = "<group>"; };
 		3F2B76C51EDD9B56004E1E6C /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		3F9262DF1ED4E89C007CD8E9 /* intouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intouch.png; path = ../../../../Desktop/intouch.png; sourceTree = "<group>"; };
 		3FA5F9F81EE06B940090B8D7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -85,8 +85,8 @@
 				3FDBA7651EE63C56000EE4E1 /* User.swift */,
 				3FEC1DD91EBB72010001143B /* ViewController.swift */,
 				3FEC1DEB1EBB76BA0001143B /* SettingsController.swift */,
-				3F0FA9C11EE8E87B00DF4E61 /* final.png */,
 				3FEC1DDB1EBB72010001143B /* Main.storyboard */,
+				3F2B36411EEEE14800D60F80 /* final.png */,
 				3FEC1DDE1EBB72010001143B /* Assets.xcassets */,
 				3FEC1DE01EBB72010001143B /* LaunchScreen.storyboard */,
 				3FEC1DE31EBB72010001143B /* Info.plist */,
@@ -155,7 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0FA9C21EE8E87B00DF4E61 /* final.png in Resources */,
+				3F2B36421EEEE14800D60F80 /* final.png in Resources */,
 				3F9262E01ED4E89C007CD8E9 /* intouch.png in Resources */,
 				3FEC1DE21EBB72010001143B /* LaunchScreen.storyboard in Resources */,
 				3FEC1DDF1EBB72010001143B /* Assets.xcassets in Resources */,
