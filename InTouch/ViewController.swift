@@ -321,7 +321,7 @@ func messageComposeViewController(_ controller: MFMessageComposeViewController,
         
         DispatchQueue.main.async { () -> Void in
             
-            self.present(alertVC, animated: true, completion: nil)
+        self.present(alertVC, animated: true, completion: nil)
             
         }
         
@@ -395,7 +395,7 @@ extension UITextField {
     }
 }
 
-extension String
+extension String 
 {
     func safelyLimitedTo(length n: Int)->String {
         let c = self.characters

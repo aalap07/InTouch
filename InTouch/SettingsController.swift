@@ -65,8 +65,6 @@ class SettingsController: UIViewController, UIScrollViewDelegate, UITextViewDele
         bottomView.frame = CGRect(x: 0, y: settingHeight*2 + breakHeight*2, width: self.width, height: 1000)
         containerView.addSubview(bottomView)
        
-        bottomView.addSubview(createSetting(yVal: settingHeight, text: "Send feedback or suggestions", selector: #selector(self.sendEmail(_:))))
-        bottomView.addSubview(createSetting(yVal: settingHeight*2, text: "Contact the developer", selector: #selector(self.sendEmail(_:))))
         
         
         makeLabel(label: messageLabel, text: "Message", rect: CGRect(x: width/2 - 65, y: 140, width: 130, height: 50 ), font: UIFont(name: "HelveticaNeue-Thin", size: 25)!)
@@ -337,14 +335,7 @@ class SettingsController: UIViewController, UIScrollViewDelegate, UITextViewDele
         setUpNotification()
     }
     
-    // Opens an email to the developer
-    func sendEmail(_ sender: UIButton) {
-        if let emailURL: NSURL = NSURL(string: "mailto:aalappatel07@gmail.com") {
-            if UIApplication.shared.canOpenURL(emailURL as URL) {
-                UIApplication.shared.open(emailURL as URL)
-            }
-        }
-    }
+    
     
   
 
