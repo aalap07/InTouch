@@ -1,9 +1,6 @@
 # InTouch
 An iOS app written in Swift that uses fingerprint authentication to automate the sending of messages. Options include notifications, daily reminders, and up to 3 contacts with a preset message.
 
-See video and screenshots below.
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/JIU2gNNPJ3k/0.jpg)](https://www.youtube.com/watch?v=JIU2gNNPJ3k)
 
 ![img_9703](https://user-images.githubusercontent.com/23727170/26909479-28495efe-4bcf-11e7-92f9-6d1850dc850b.PNG)
 
